@@ -31,10 +31,10 @@ function Navigation({ children }) {
             </Link>
           </div>
         </div>
-        <div className="relative w-10 h-10 mb-4">
+        <div className="relative w-10 h-10 mb-4 cursor-pointer">
           <Image
             className="rounded-lg"
-            alt="profile image"
+            alt="Profile image"
             fill
             src={
               "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMHBpY3R1cmUlMjBwbGFjZWhvbGRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"

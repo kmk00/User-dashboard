@@ -16,9 +16,6 @@ function Customer({ person }) {
       <p className="sm:text-left text-right">{`${person.name.last}@gmail.com`}</p>
       <p className="hidden md:grid">{`${person.date}`}</p>
       <p className="hidden sm:grid">{`${person.method}`}</p>
-      <div className="flex p-4 rounded-md bg-purple-100 w-fit">
-        <BsPersonFill className="text-purple-700" size={20} />
-      </div>
     </li>
   );
 }

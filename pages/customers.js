@@ -6,7 +6,7 @@ function customers() {
   return (
     <div className="h-screen p-4">
       <div className="bg-white p-4 rounded-md border">
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4">
           <span>Name</span>
           <span className="sm:text-left text-right">Email</span>
           <span className="hidden md:grid">Last Order</span>
