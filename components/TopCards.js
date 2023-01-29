@@ -2,7 +2,7 @@ import React from "react";
 
 function TopCards() {
   return (
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-5">
+    <div className="grid grid-cols-1 p-4 gap-4 lg:grid-cols-5">
       <div className="flex justify-between items-center lg:col-span-2 bg-white px-6 py-4 rounded-lg border border-gray-300">
         <div className="flex flex-col">
           <p className="text-2xl font-bold">$7,231</p>
