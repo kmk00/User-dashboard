@@ -1,4 +1,4 @@
-import Customer from "@/components/Customer";
+import Customer from "@/components/CustomersComp/Customer";
 import React from "react";
 import { data } from "@/data/orders";
 

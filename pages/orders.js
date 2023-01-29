@@ -1,4 +1,4 @@
-import Order from "@/components/Order";
+import Order from "@/components/OrdersComp/Order";
 import { data } from "@/data/orders";
 import React from "react";
 

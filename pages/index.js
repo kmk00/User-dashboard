@@ -1,7 +1,7 @@
-import Chart from "@/components/Chart";
 import Header from "@/components/Header";
-import Sales from "@/components/Sales";
-import TopCards from "@/components/TopCards";
+import Chart from "@/components/HomeComp/Chart";
+import Sales from "@/components/HomeComp/Sales";
+import TopCards from "@/components/HomeComp/TopCards";
 import Head from "next/head";
 
 export default function Home() {
