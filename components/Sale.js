@@ -10,7 +10,7 @@ function Sale({ person }) {
             <BsCartCheck></BsCartCheck>
           </div>
           <div className="flex-col flex">
-            <p>{`${person.total}`}</p>
+            <p className="font-bold">{`$${person.total}`}</p>
             <p>{person.name.last}</p>
           </div>
         </div>

@@ -5,7 +5,8 @@ import React from "react";
 function orders() {
   return (
     <div className="h-screen p-4">
-      <div className="bg-white p-4 rounded-md border">
+      <h1 className="ml-2 my-4 text-xl">Orders</h1>
+      <div className="bg-white p-4 rounded-md border border-gray-300">
         <div className="w-full grid grid-cols-3 md:grid-cols-4">
           <span>Order</span>
           <span className="text-center sm:text-left">Status</span>

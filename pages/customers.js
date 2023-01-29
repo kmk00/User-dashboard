@@ -5,7 +5,8 @@ import { data } from "@/data/orders";
 function customers() {
   return (
     <div className="h-screen p-4">
-      <div className="bg-white p-4 rounded-md border">
+      <h1 className="ml-2 my-4 text-xl">Customers</h1>
+      <div className="bg-white p-4 rounded-md border border-gray-300">
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4">
           <span>Name</span>
           <span className="sm:text-left text-right">Email</span>
